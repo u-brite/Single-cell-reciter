@@ -1,11 +1,11 @@
-# SINGLE-CELL-RECITER
+# SINGLE-CELL-RECITER_
 Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
 :exclamation: _The `configs` and `notebooks` directories are also optional. We recommend taking a look at [cookiecutter for datascience](https://github.com/drivendata/cookiecutter-data-science) or [cookiecutter for computational biology](https://github.com/drivendata/cookiecutter-data-science) to get ideas on structuring your projects. Also, use a `.gitignore` that fits the main programming language of your project._ :exclamation:
 
 ## Table of Contents
 
-- [SINGLE-CELL-RECITER](#single-cell-reciter)
+- [SINGLE-CELL-RECITER_](#single-cell-reciter_)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
   - [Data](#data)
