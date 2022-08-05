@@ -31,6 +31,9 @@ dask-worker-space/
 *.csv
 *.gz*
 
+# Local 
+temp/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -68,6 +71,7 @@ target/
 
 # DotEnv configuration
 .env
+.venv
 
 # conda
 .conda
