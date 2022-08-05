@@ -1,26 +1,27 @@
-# team-repo-template
-:exclamation: _This top heading should be the name of your project i.e. BiocSwirl or SNVariome. Anything between 2 exclamation marks is intended to be deleted. Any content that isn't a heading or an optional heading can be deleted as well. The structure of this readme is open to any creative changes, but the main components of Background/Data/Usage/Team Members should remain. You're free to add images and get creative about how you want your readme to look._ :exclamation:
+# SINGLE-CELL-RECITER
+Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
 :exclamation: _The `configs` and `notebooks` directories are also optional. We recommend taking a look at [cookiecutter for datascience](https://github.com/drivendata/cookiecutter-data-science) or [cookiecutter for computational biology](https://github.com/drivendata/cookiecutter-data-science) to get ideas on structuring your projects. Also, use a `.gitignore` that fits the main programming language of your project._ :exclamation:
 
 ## Table of Contents
 
-- [Template](#team-repo-template)
-    - [Background](#Background)
-    - [Data](#data)
-    - [Usage](#usage)
-        - [Installation](#installation)
-        - [Requirements](#requirements) _Can be named Dependencies as well_
-        - [Activate conda environment](#activate-conda-environment) _Optional_
-        - [Steps to run ](#steps-to-run) _Optional depending on project_
-            - [Step-1](#step-1)
-            - [Step-2](#step-2)
-    - [Results](#results) _Optional depending on project_
-    - [Team Members](#team-members)
+- [SINGLE-CELL-RECITER](#single-cell-reciter)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [Data](#data)
+  - [Usage](#usage)
+    - [Installation](#installation)
+    - [Requirements](#requirements)
+    - [Activate conda environment](#activate-conda-environment)
+    - [Steps to run](#steps-to-run)
+      - [Step 1](#step-1)
+      - [Step 2](#step-2)
+  - [Results](#results)
+  - [Team Members](#team-members)
 
 ## Background
 
-:exclamation: _Include background on the project, project description, and significance. This will be converted to your team's abstract by the end of the hackathon. This should be updated by Monday, August 1st to include feedback given._ :exclamation:
+In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) model to scRNA. Initially developed in the natural language processing field, LDA is a method of modeling topics using a topic matrix. We can apply the method to single-cell biology by treating each cell as a document and each gene expression count as a word. After training the model, we will plot the topics over a UMAP of the reference set and inspect them for characteristic gene sets. Multiomics enrichment analysis will be performed further using ranked gene/word lists of each cell cluster/document.
 
 ## Data
 
@@ -109,3 +110,4 @@ output_directory/
 
 Tarun Mamidi | tmamidi@uab.edu | Team Leader  
 Shaurita Hutchins | shutchins@uab.edu | Co-leader
+Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
