@@ -71,6 +71,7 @@ target/
 
 # DotEnv configuration
 .env
+.venv
 
 # conda
 .conda
