@@ -1,16 +1,18 @@
-# SINGLE-CELL-RECITER_
+# SINGLE-CELL-RECITER
 Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
-:exclamation: _The `configs` and `notebooks` directories are also optional. We recommend taking a look at [cookiecutter for datascience](https://github.com/drivendata/cookiecutter-data-science) or [cookiecutter for computational biology](https://github.com/drivendata/cookiecutter-data-science) to get ideas on structuring your projects. Also, use a `.gitignore` that fits the main programming language of your project._ :exclamation:
+[//]: <> (This is also a comment.)
 
 ## Table of Contents
 
-- [SINGLE-CELL-RECITER_](#single-cell-reciter_)
+- [SINGLE-CELL-RECITER](#single-cell-reciter)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
   - [Data](#data)
   - [Usage](#usage)
     - [Installation](#installation)
+      - [Creating an environment from an environment.yml file](#creating-an-environment-from-an-environmentyml-file)
+      - [:octocat: Git](#octocat-git)
     - [Requirements](#requirements)
     - [Activate conda environment](#activate-conda-environment)
     - [Steps to run](#steps-to-run)
@@ -25,7 +27,37 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 
 ## Data
 
-:exclamation: _Discuss the data you used and how it can be accessed._ :exclamation:
+[SRA Run Selector ](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA603103&o=acc_s%3Aa)
+
+| Run         | BioProject  | BioSample    | LibraryLayout | Organism     | Sample Name | source_name | tissue      |
+|-------------|-------------|--------------|---------------|--------------|-------------|-------------|-------------|
+| SRR11832836 | PRJNA603103 | SAMN13919403 | PAIRED        | Homo sapiens | GSM4284223  | Skin        | cSCC        |
+| SRR11832837 | PRJNA603103 | SAMN13919401 | PAIRED        | Homo sapiens | GSM4284224  | Skin        | Normal Skin |
+| SRR11832838 | PRJNA603103 | SAMN13919399 | PAIRED        | Homo sapiens | GSM4284225  | Skin        | cSCC        |
+| SRR11832839 | PRJNA603103 | SAMN13919396 | PAIRED        | Homo sapiens | GSM4284226  | Skin        | Normal Skin |
+| SRR11832840 | PRJNA603103 | SAMN13919395 | PAIRED        | Homo sapiens | GSM4284227  | Skin        | cSCC        |
+| SRR11832841 | PRJNA603103 | SAMN13919394 | PAIRED        | Homo sapiens | GSM4284228  | Skin        | Normal Skin |
+| SRR11832842 | PRJNA603103 | SAMN13919393 | PAIRED        | Homo sapiens | GSM4284229  | Skin        | cSCC        |
+| SRR11832843 | PRJNA603103 | SAMN13919392 | PAIRED        | Homo sapiens | GSM4284230  | Skin        | Normal Skin |
+| SRR11832844 | PRJNA603103 | SAMN13919391 | PAIRED        | Homo sapiens | GSM4284231  | Skin        | cSCC        |
+| SRR11832845 | PRJNA603103 | SAMN13919390 | PAIRED        | Homo sapiens | GSM4284232  | Skin        | cSCC        |
+| SRR11832846 | PRJNA603103 | SAMN13919389 | PAIRED        | Homo sapiens | GSM4284233  | Skin        | Normal Skin |
+| SRR11832847 | PRJNA603103 | SAMN13919388 | PAIRED        | Homo sapiens | GSM4284234  | Skin        | cSCC        |
+| SRR11832848 | PRJNA603103 | SAMN13919387 | PAIRED        | Homo sapiens | GSM4284235  | Skin        | Normal Skin |
+| SRR11832850 | PRJNA603103 | SAMN13919385 | PAIRED        | Homo sapiens | GSM4284237  | Skin        | Normal Skin |
+| SRR11832851 | PRJNA603103 | SAMN13919384 | PAIRED        | Homo sapiens | GSM4284238  | Skin        | cSCC        |
+| SRR11832852 | PRJNA603103 | SAMN13919383 | PAIRED        | Homo sapiens | GSM4284239  | Skin        | Normal Skin |
+| SRR11832853 | PRJNA603103 | SAMN13919382 | PAIRED        | Homo sapiens | GSM4284240  | Skin        | cSCC        |
+| SRR11832854 | PRJNA603103 | SAMN13919381 | PAIRED        | Homo sapiens | GSM4284241  | Skin        | Normal Skin |
+| SRR11832855 | PRJNA603103 | SAMN13919380 | PAIRED        | Homo sapiens | GSM4284242  | Skin        | cSCC        |
+| SRR11832856 | PRJNA603103 | SAMN13919379 | PAIRED        | Homo sapiens | GSM4284243  | Skin        | Normal Skin |
+| SRR11832857 | PRJNA603103 | SAMN13919378 | PAIRED        | Homo sapiens | GSM4284244  | Skin        | cSCC        |
+| SRR11832858 | PRJNA603103 | SAMN13919377 | PAIRED        | Homo sapiens | GSM4284245  | Skin        | Normal Skin |
+| SRR11832859 | PRJNA603103 | SAMN13919434 | PAIRED        | Homo sapiens | GSM4284246  | Skin        | cSCC        |
+| SRR11832860 | PRJNA603103 | SAMN13919433 | PAIRED        | Homo sapiens | GSM4284247  | Skin        | Normal Skin |
+| SRR11832849 | PRJNA603103 | SAMN13919386 | PAIRED        | Homo sapiens | GSM4284236  | Skin        | cSCC        |
+
+
 
 ## Usage
 
@@ -33,17 +65,17 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 
 ### Installation
 
-:exclamation: _If installation is required, please mention how to do so here._ :exclamation:
+#### Creating an environment from an environment.yml file
 
-Installation simply requires fetching the source code. Following are required:
+conda env create -f Hackin_Omics.yml
 
-- Git
+####  :octocat: Git
 
 To fetch source code, change in to directory of your choice and run:
 
 ```sh
 git clone -b main \
-    git@github.com:u-brite/team-repo-template.git
+    git@github.com:u-brite/Single-cell-reciter.git
 ```
 
 ### Requirements
@@ -108,6 +140,9 @@ output_directory/
 
 ## Team Members
 
-Tarun Mamidi | tmamidi@uab.edu | Team Leader  
-Shaurita Hutchins | shutchins@uab.edu | Co-leader
-Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
+| Name      | Email | Role     |
+| :---        |    :----:   |          :---: |
+:wave: Nilesh Kumar | tmamidi@uab.edu | Team Leader  
+:raised_back_of_hand: Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
+:raised_hand: Hammad Ali Hassan | hammadali50@live.com | Team Member
+:vulcan_salute: Jacky Siu Pui Chung | puichung.siu@gmail.com | Team Member
