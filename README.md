@@ -19,6 +19,7 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
     - [Steps to run](#steps-to-run)
       - [Step 1](#step-1)
       - [Step 2](#step-2)
+      - [Step 3](#step-3)
   - [Results](#results)
   - [Team Members](#team-members)
 
@@ -113,15 +114,42 @@ conda activate Hackin_Omics
 
 #### Step 1
 
-```sh
-python src/data_prep.py -i path/to/file.tsv -O path/to/output_directory
-```
+Use the public scRNA data or your own dataset. Various public datasets are available from a variety of sources, including NCBI GEO. 
 
 #### Step 2
 
-```sh
-python src/model.py -i path/to/parsed_file.tsv -O path/to/output_directory
+Using the Cell Ranger is a set of analysis pipelines to align reads, and generate feature-barcode matrices.
+
+Example:
+
+```{sh}
+#!/bin/bash
+#
+#SBATCH --job-name=CellRanger_P1
+#SBATCH --output=CellRanger_P1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --partition=largemem
+#SBATCH --time=12:00:00
+#SBATCH --mem-per-cpu=10000
+
+module load CellRanger/5.0.1
+cellranger -V
+
+time cellranger count --id=P1_1 \
+--fastqs=P1_Fastaqs \
+--sample=SRR11832837,SRR11832839 \
+--transcriptome=refdata-gex-GRCh38-2020-A
 ```
+
+Once all the Cell ranger analysis is done move all *.h5 file to one folder as per the need.
+
+**Note**: Assuming HCP is being used for the analysis.
+
+
+#### Step 3
+
+As described in the **Notebook** load the *.h5 file and perform the topic modeling analysis. 
 
 Output from this step includes -
 
