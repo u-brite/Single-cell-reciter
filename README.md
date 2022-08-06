@@ -1,7 +1,7 @@
 # SINGLE-CELL-RECITER
 Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
-[SINGLE-CELL-RECITER](images/scRNA.gif)
+![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/scRNA.gif)
 
 [//]: <> (This is also a comment.)
 
