@@ -10,11 +10,10 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
   - [Background](#background)
   - [Data](#data)
   - [Usage](#usage)
-    - [Installation](#installation)
-      - [Creating an environment from an environment.yml file](#creating-an-environment-from-an-environmentyml-file)
+    - [:woman_technologist: Installation](#woman_technologist-installation)
       - [:octocat: Git](#octocat-git)
     - [Requirements](#requirements)
-    - [Activate conda environment](#activate-conda-environment)
+    - [Create and activate :snake: conda environment](#create-and-activate-snake-conda-environment)
     - [Steps to run](#steps-to-run)
       - [Step 1](#step-1)
       - [Step 2](#step-2)
@@ -61,13 +60,8 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 
 ## Usage
 
-:exclamation: _How will someone not involved in your project be able to run the code or use it._ :exclamation:
+### :woman_technologist: Installation
 
-### Installation
-
-#### Creating an environment from an environment.yml file
-
-conda env create -f Hackin_Omics.yml
 
 ####  :octocat: Git
 
@@ -79,32 +73,39 @@ git clone -b main \
 ```
 
 ### Requirements
-:exclamation: _Note any software used (including Python or R packages), operating system requirements, etc. and its version so that your project is reproducible. It does not have to be in the below format_ :exclamation:
 
 *OS:*
 
-Currently works only in Linux OS. Docker versions may need to be explored later to make it useable in Mac (and
-potentially Windows).
+Tested on:
+
+|||
+|--|--|
+|Description:    |:tophat: Red Hat Enterprise Linux Server release 7.9 (Maipo)|
+|Release:        |7.9|
+|Codename:       |Maipo|
 
 *Tools:*
 
 - Anaconda3
-    - Tested with version: 2020.02
+    - Tested with version: conda 4.11.0
+- Cellranger 
+  - cellranger-5.0.1
+- bamtofastq v1.3.5
 
-### Activate conda environment
+### Create and activate :snake: conda environment
 :exclamation: _Optional: Depends on project._ :exclamation:
 
 Change in to root directory and run the commands below:
 
 ```sh
 # create conda environment. Needed only the first time.
-conda env create --file configs/environment.yaml
+conda env create -f Hackin_Omics.yml
 
 # if you need to update existing environment
-conda env update --file configs/environment.yaml
+conda env update --file Hackin_Omics.yml
 
 # activate conda environment
-conda activate testing
+conda activate Hackin_Omics
 ```
 
 ### Steps to run
