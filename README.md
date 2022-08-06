@@ -1,6 +1,8 @@
 # SINGLE-CELL-RECITER
 Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
+![SINGLE-CELL-RECITER](images/scRNA.gif)
+
 [//]: <> (This is also a comment.)
 
 ## Table of Contents
@@ -62,7 +64,6 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 
 ### :woman_technologist: Installation
 
-
 ####  :octocat: Git
 
 To fetch source code, change in to directory of your choice and run:
@@ -109,7 +110,6 @@ conda activate Hackin_Omics
 ```
 
 ### Steps to run
-:exclamation: _Optional: Depends on project._ :exclamation:
 
 #### Step 1
 
@@ -126,10 +126,9 @@ python src/model.py -i path/to/parsed_file.tsv -O path/to/output_directory
 Output from this step includes -
 
 ```directory
-output_directory/
-├── parsed_file.tsv               <--- used for model
-├── plot.pdf- Plot to visualize data
-└── columns.csv - columns before and after filtering step
+Results/
+|-- Rank_by_topic.csv
+|-- SCC.h5ad
 
 ```
 
