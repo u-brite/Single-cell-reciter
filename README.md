@@ -20,6 +20,8 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
       - [Step 1](#step-1)
       - [Step 2](#step-2)
       - [Step 3](#step-3)
+      - [Step 4](#step-4)
+      - [Step 5](#step-5)
   - [Results](#results)
   - [Team Members](#team-members)
 
@@ -159,6 +161,16 @@ Results/
 |-- SCC.h5ad
 
 ```
+
+#### Step 4
+
+Using the each topic in the matrix from the previous step perfom the multiomics gene ranked encriment analyis as discribed in the **NOTEBOOK**.
+
+#### Step 5
+
+Using the topic in the matrix from the step 3 and perform co-expression analysis.
+
+
 
 **Note**: The is an example note with a [link](https://github.com/u-brite/team-repo-template).
 
