@@ -1,0 +1,17 @@
+anndata
+fastparquet
+ipykernel
+ipython
+leidenalg
+matplotlib
+numpy
+pandas
+pyarrow
+scanpy
+scikit-image
+scikit-learn
+scipy
+scrublet
+scvi-tools
+seaborn
+torch
