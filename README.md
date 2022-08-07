@@ -36,6 +36,10 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 
 Natural language processing introduced Latent Dirichlet Allocation (LDA) as a topic modeling method. We can apply the method to single-cell biology by treating each cell as a document and each gene expression as a word. We can apply the method to single-cell biology by treating each cell as a document and each gene expression as a word.
 
+## Workflow
+![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/Workflow.png)
+
+
 - Pancheva A, Wheadon H, Rogers S, Otto TD. Using topic modeling to detect cellular crosstalk in scRNA-seq. PLoS computational biology. 2022 Apr 8;18(4):e1009975.
 
 ## Data
@@ -185,7 +189,7 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 
 
 ## Results
-![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/ezgif.com-gif-maker.gif)
+![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/Results.png)
 
 ## Team Members
 
