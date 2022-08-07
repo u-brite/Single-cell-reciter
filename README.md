@@ -152,7 +152,7 @@ Once all the Cell ranger analysis is done move all *.h5 file to one folder as pe
 
 #### Step 3
 
-As described in the **Notebook** load the *.h5 file and perform the topic modeling analysis. 
+As described in the **scRNA_Topic_Modeling.ipynb** load the *.h5 file and perform the topic modeling analysis. 
 
 Output from this step includes -
 
