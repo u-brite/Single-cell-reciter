@@ -173,7 +173,7 @@ Results/
 
 #### Step 4
 
-Using the each topic in the matrix from the previous step perfom the multiomics gene ranked encriment analyis as discribed in the **NOTEBOOK**.
+Using the each topic in the matrix from the previous step perfom the multiomics gene ranked encriment analyis as discribed in the **NOTEBOOK** [Topic_Ranked_Enrichment_Analysis.ipynb](https://github.com/u-brite/Single-cell-reciter/tree/main/notebooks#:~:text=11%20days%20ago-,Topic_Ranked_Enrichment_Analysis.ipynb,-Create%20Topic_Ranked_Enrichment_Analysis.ipynb).
 
 #### Step 5
 
