@@ -181,7 +181,7 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 
 
 
-**Note**: The is an example note with a [link](https://github.com/u-brite/team-repo-template).
+[//]: <> (**Note**: The is an example note with)
 
 
 ## Results
