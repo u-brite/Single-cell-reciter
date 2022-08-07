@@ -24,6 +24,7 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
       - [Step 5](#step-5)
   - [Results](#results)
   - [Team Members](#team-members)
+  - [Mentor](#mentor)
 
 ## Background
 
@@ -182,7 +183,16 @@ Using the topic in the matrix from the step 3 and perform co-expression analysis
 
 | Name      | Email | Role     |
 | :---        |    :----:   |          :---: |
-:wave: Nilesh Kumar | tmamidi@uab.edu | Team Leader  
-:raised_back_of_hand: Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
+:wave: Nilesh Kumar (Ph.D. Candidate)| tmamidi@uab.edu | Team Leader  
+:raised_back_of_hand: Dr. Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
 :raised_hand: Hammad Ali Hassan | hammadali50@live.com | Team Member
 :vulcan_salute: Jacky Siu Pui Chung | puichung.siu@gmail.com | Team Member
+
+## Mentor 
+**Dr. Shahid Mukhtar**
+*Associate Professor, Department of Biology*
+_Co-Director, Genetics and Genomic Sciences Undergraduate Program_
+_Faculty, Department of Surgery_
+_Scientist, Nutrition Obesity Research Center_
+_UAB | The University of Alabama at Birmingham_
+_Campbell Hall 369 | 1300 Univ. Blvd. | Birmingham, AL, 35294-1170_
