@@ -160,7 +160,7 @@ Once all the Cell ranger analysis is done move all *.h5 file to one folder as pe
 
 #### Step 3
 
-As described in the **scRNA_Topic_Modeling.ipynb** load the *.h5 file and perform the topic modeling analysis. 
+As described in the **[scRNA_Topic_Modeling.ipynb](https://github.com/u-brite/Single-cell-reciter/blob/main/notebooks/scRNA_Topic_Modeling.ipynb)** load the *.h5 file and perform the topic modeling analysis. 
 
 Output from this step includes -
 
@@ -177,7 +177,7 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 
 #### Step 5
 
-(**Future work**) Using the topic in the matrix from the step 3 and perform co-expression analysis. (see [Notebook]([5_co_expression_analysis.ipynb](https://github.com/u-brite/Single-cell-reciter/blob/main/notebooks/5_co_expression_analysis.ipynb)) )
+(**Future work**) Using the topic in the matrix from the step 3 and perform co-expression analysis. see [Notebook: 5_co_expression_analysis.ipynb](https://github.com/u-brite/Single-cell-reciter/blob/main/notebooks/5_co_expression_analysis.ipynb) 
 
 
 
