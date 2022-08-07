@@ -28,7 +28,7 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
       - [Step 3](#step-3)
       - [Step 4](#step-4)
       - [Step 5](#step-5)
-  - [Results](#results)
+  - [!Results](#)
   - [Team Members](#team-members)
   - [Mentor](#mentor)
 
@@ -184,8 +184,8 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 [//]: <> (**Note**: The is an example note with)
 
 
-## Results
-![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/ezgif.com-gif-maker.gif)
+## ![Results](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/Results.png)
+
 
 ## Team Members
 
