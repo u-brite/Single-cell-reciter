@@ -186,7 +186,6 @@ Using the topic in the matrix from the step 3 and perform co-expression analysis
 :wave: Nilesh Kumar (Ph.D. Candidate)| tmamidi@uab.edu | Team Leader  
 :raised_back_of_hand: Dr. Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
 :raised_hand: Hammad Ali Hassan | hammadali50@live.com | Team Member
-:vulcan_salute: Jacky Siu Pui Chung | puichung.siu@gmail.com | Team Member
 
 ## Mentor 
 **Dr. Shahid Mukhtar**
