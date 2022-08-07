@@ -3,14 +3,18 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
 
 ![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/ezgif.com-gif-maker.gif)
 
+## Abstract
+
+In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) model to scRNA. Initially developed in the natural language processing field, LDA is a method of modeling topics using a topic matrix. We can apply the method to single-cell biology by treating each cell as a document and each gene expression count as a word. After training the model, we will plot the topics over a UMAP of the reference set and inspect them for characteristic gene sets. Multiomics enrichment analysis will be performed further using ranked gene/word lists of each cell cluster/document.
+
 [//]: <> (This is also a comment.)
 
 ## Table of Contents
 
 - [SINGLE-CELL-RECITER](#single-cell-reciter)
+  - [Abstract](#abstract)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
-  - [Abstract](#abstract)
   - [Data](#data)
   - [Usage](#usage)
     - [:woman_technologist: Installation](#woman_technologist-installation)
@@ -29,9 +33,9 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
 
 ## Background
 
-## Abstract
+Natural language processing introduced Latent Dirichlet Allocation (LDA) as a topic modeling method. We can apply the method to single-cell biology by treating each cell as a document and each gene expression as a word. We can apply the method to single-cell biology by treating each cell as a document and each gene expression as a word.
 
-In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) model to scRNA. Initially developed in the natural language processing field, LDA is a method of modeling topics using a topic matrix. We can apply the method to single-cell biology by treating each cell as a document and each gene expression count as a word. After training the model, we will plot the topics over a UMAP of the reference set and inspect them for characteristic gene sets. Multiomics enrichment analysis will be performed further using ranked gene/word lists of each cell cluster/document.
+- Pancheva A, Wheadon H, Rogers S, Otto TD. Using topic modeling to detect cellular crosstalk in scRNA-seq. PLoS computational biology. 2022 Apr 8;18(4):e1009975.
 
 ## Data
 
