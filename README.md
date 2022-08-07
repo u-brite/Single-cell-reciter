@@ -191,7 +191,7 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 
 | Name      | Email | Role     |
 | :---        |    :----:   |          :---: |
-:wave: Nilesh Kumar (Ph.D. Candidate)| tmamidi@uab.edu | Team Leader  
+:wave: Nilesh Kumar (Ph.D. Candidate)| nileshkr@uab.edu | Team Leader  
 :raised_back_of_hand: Dr. Virginie Grosboillot | virginie.grosboillot@alumni.ethz.ch | Team Member
 :raised_hand: Hammad Ali Hassan | hammadali50@live.com | Team Member
 
