@@ -1,5 +1,5 @@
 # SINGLE-CELL-RECITER
-Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
+## Single-cell topics modeling using deep learning and multi-omics enrichment analysis.
 
 ![SINGLE-CELL-RECITER](https://github.com/u-brite/Single-cell-reciter/blob/main/Images/ezgif.com-gif-maker.gif)
 
@@ -12,6 +12,7 @@ In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) m
 ## Table of Contents
 
 - [SINGLE-CELL-RECITER](#single-cell-reciter)
+  - [Single-cell topics modeling using deep learning and multi-omics enrichment analysis.](#single-cell-topics-modeling-using-deep-learning-and-multi-omics-enrichment-analysis)
   - [Abstract](#abstract)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
@@ -176,7 +177,7 @@ Using the each topic in the matrix from the previous step perfom the multiomics 
 
 #### Step 5
 
-Using the topic in the matrix from the step 3 and perform co-expression analysis.
+(**Future work**) Using the topic in the matrix from the step 3 and perform co-expression analysis. (see [Notebook]([5_co_expression_analysis.ipynb](https://github.com/u-brite/Single-cell-reciter/blob/main/notebooks/5_co_expression_analysis.ipynb)) )
 
 
 
