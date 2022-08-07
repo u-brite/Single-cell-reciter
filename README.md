@@ -10,6 +10,7 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
 - [SINGLE-CELL-RECITER](#single-cell-reciter)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
+  - [Abstract](#abstract)
   - [Data](#data)
   - [Usage](#usage)
     - [:woman_technologist: Installation](#woman_technologist-installation)
@@ -27,6 +28,8 @@ Single-cell topics modeling using deep learning and multi-omics enrichment analy
   - [Mentor](#mentor)
 
 ## Background
+
+## Abstract
 
 In this project, we will apply the amortized Latent Dirichlet Allocation (LDA) model to scRNA. Initially developed in the natural language processing field, LDA is a method of modeling topics using a topic matrix. We can apply the method to single-cell biology by treating each cell as a document and each gene expression count as a word. After training the model, we will plot the topics over a UMAP of the reference set and inspect them for characteristic gene sets. Multiomics enrichment analysis will be performed further using ranked gene/word lists of each cell cluster/document.
 
